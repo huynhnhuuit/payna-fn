@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif !important;
+	font-size: 16px !important;
+	color: #575455 !important;
+	font-weight: 400 !important;
+	font-style: normal !important;
+	line-height: 32px !important;
+}
+h1, h2, h3 {
+	color: #000 !important;
+}
+h1{
+	font-size: 55px !important;
+	font-weight: 700 !important;
+	line-height: 82.5px !important;
+}
+h2{
+	font-size: 36px !important;
+	font-weight: 700 !important;
+	line-height: 54px !important;
+}
+h3{
+	font-size: 20px !important;
+	font-weight: 600 !important;
+}
+h4{
+	color: #F75C4E !important;
+    font-size: 16px !important;
+    font-weight: 700  !important;
+	line-height: 24px !important;
+}
+/* button get started */
+.btn2 {
+	background-color: #1F7CFF;
+  	border-radius: 50px 50px !important;
+  	color: #ffffff	 ;
+  	padding: 10px 40px !important;
+  	text-align: center;
+  	text-decoration: none;
+	border-style: none;
+  	display: inline-block;
+  	font-size: 16px;
+	line-height: 24px;
+  	cursor: pointer;
+	letter-spacing: 1px;
+}
+.btn-signin{
+	background-color: #F5F6FB !important;
+  	color: #070F18	!important ;
+}
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 99;
+	font-size: 28px;
+	border: none;
+	outline: none;
+	background-color: #F5F6FB;
+	box-shadow: 5px 8px 8px #c4c4c4;;
+	cursor: pointer;
+	padding: 12px 15px;
+	border-radius: 4px;
+  }
+#myBtn i {
+ color: #F75C4E;
+}
+.header{
+    height: 100px;
+}
+.header .navbar{
+    padding-top: 50px !important;
+}
+    /* CSS header */
+.navbar{
+    padding-top: 80px
+}
+.navbar-nav .nav-item{
+    padding:0px  20px;
+}
+section {
+    padding-top:90px
+}
+.brand{
+    padding-top:120px;
+}
+.h-content{
+    padding-right: 60px;
+    /* padding-top:60px; */
+}
+.img-manage1 {
+	margin-top: -290px;
+    margin-left: -120px;
+}
+.img-manage2 {
+	margin-top: -250px;
+    margin-left: 360px;
+}
+.brand-img{
+	display: flex;
+	justify-content: space-between;
+	text-align: right;
+	margin-top: 20px;
+	/* margin-left: 100px;*/
+} 
+.brand-img img {
+	height: 30px;
+}
+.f-content{
+    text-align: center;
+}
+.row-card{
+    padding-top: 45px;
+}
+#features1 .card{
+    border: unset;
+}
+#features1 .card img{
+    padding-top: 20px;
+}
+#contact1 .c-content{
+    padding-left: 30px;
+    padding-top:50px;
+
+}
+#contact1{
+    padding-bottom: 90px;
+}
+#email {
+	width: 65%;	
+	text-align: left  !important;
+	background-color: #F5F6FB !important;
+	border-radius: 50px 0 0 50px;
+	padding-left: 25px;
+	box-shadow: none !important;
+}
+#submit {
+	width: 35%;
+	margin-left: -30px;
+}
+
+@media screen and (max-width: 992px) {
+    /* section{
+        padding-top: 60px;
+    } */
+    .only-pc{
+        display: none;
+    }
+    .header-main .navbar .navbar-nav{
+        display: none;
+    }
+    #home1 .h-content, #contact1 .c-content, .brand-content{
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .brand{
+        padding-top:80px;
+    }
+    .trusted br{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px){
+    section{
+        padding-top: 45px;
+    }
+    h1{
+        font-size: 38px !important;
+        line-height: 57px !important;
+    }
+    h2{
+        font-size: 28px !important;
+        line-height: 42px !important;
+    }
+    #home1 .h-content, .brand-content{
+        text-align: left !important;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .row-card{
+        padding-top: 30px;
+    }
+    .btn-signin{
+        display: none;
+    }
+    #contact1{
+        padding-bottom: 60px;
+    }
+    #email {
+		width: 100%;	
+		border-radius: 50px !important;
+	}
+	#submit {
+		width: 100%;
+		margin-left: 0px;
+		margin-top: 15px;
+	}
+    .brand-img{
+		display: block;
+		margin-left: 0px;
+		text-align: left;
+		flex-wrap: wrap;
+    	flex-direction: row;
+	}
+	.brand-img img {
+		height: 28px;
+    	margin-right: 20px;
+    	margin-top: 20px
+	}
+    #myBtn{
+        bottom: 15px;
+        right: 15px;
+    }
+}
