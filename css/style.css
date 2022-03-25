@@ -145,6 +145,26 @@ section {
 	margin-left: -30px;
 }
 
+.row .col-lg-6 .video2{
+	background-image: url('../img/Group\ 26.png');
+	min-height: 400px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+}
+.row .video2 .btn-click{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.row .video2 .btn-click button{
+	height: 60px;
+    width: 60px;
+    background-color: #fff;
+    color: #007bff;
+    border-radius: 50%;
+}
 @media screen and (max-width: 992px) {
     /* section{
         padding-top: 60px;
@@ -192,7 +212,11 @@ section {
     }
     #contact1{
         padding-bottom: 60px;
+		padding-top: 0px;
     }
+	#contact1 .c-content {
+		padding-top: 0px;
+	}
     #email {
 		width: 100%;	
 		border-radius: 50px !important;
@@ -218,4 +242,13 @@ section {
         bottom: 15px;
         right: 15px;
     }
+	.row .video2 .btn-click button{
+		height: 45px;
+		width: 45px;
+		
+	}
+	.row .col-lg-6 .video2{
+		max-height: 300px;
+	}
+	
 }
