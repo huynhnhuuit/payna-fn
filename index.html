@@ -221,7 +221,7 @@
                             </div> -->
                               <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog" role="document">
-                                  <div class="modal-content">
+                                  <div class="modal-content" style="background: transparent;border: none;position: absolute;left: 50%;top: 50%;transform: translate(-50%, 50%);">
                                     <div class="modal-body">
                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                       <span aria-hidden="true">&times;</span>
@@ -242,8 +242,19 @@
                         <p>Your employees can bring any success into your
                             business, so we need to take care of them</p>
                         <div class="contact-form">
+                          <!-- Method: GET | POST | [PATCH | PUT -> UPDATE] | DELETE --> 
+                          <form action="/send_mail" method="" >
                             <input type="email" class="btn2" id="email" name="email" placeholder="Email Address">
                             <input type="submit" class="btn2" id="submit" value="Get Started">
+                            <!-- <div class="row" style="background: #F5F6FB !important;border-radius: 50px;">
+                              <div class="col-7">
+                                <input type="email" class="btn2" id="email" name="email" placeholder="Email Address" style="width: 100%;">
+                              </div>
+                              <div class="col-5 pr-0">
+                                <input type="submit" class="btn2" id="submit" value="Get Started" style="width: 100%;">
+                              </div>
+                            </div> -->
+                          </form>
                         </div>
                     </div>
                 </div>
